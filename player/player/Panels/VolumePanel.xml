@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<widget class="Panel" name="VolumePanel">
+<public>
+<property name="background">0, 24, 23, 32</property>
+<property name="rect">0, 0, 25, 145</property>
+</public>
+<widgets>
+<widget name="volumeSlider" class="slider" bindchange="volumeOnSlider">
+<public>
+<property name="rect">3, 21, 20, 120</property>
+<property name="background">255, 24, 23, 32</property>
+</public>
+<property name="minValue">0</property>
+<property name="maxValue">100</property>
+<property name="currentValue">20</property>
+<property name="direction">VERTICAL</property>
+<property name="norImg">vol_bal.png</property>
+<property name="barImg">slider_bar.png</property>
+<property name="sliderImg">slider_slider.png</property>
+</widget>
+<widget name="volValueLabel" class="label">
+<public>
+<property name="rect">0, 9, 25, 13</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="foreground">255, 246, 246, 248</property>
+<property name="font">Droid-Sans-Fallback.TTF, 12</property>
+</public>
+<property name="text">50</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>

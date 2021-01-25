@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<widget class="Panel" name="onlineMusicPanel">
+<public>
+<property name="background">0, 212, 208, 200</property>
+<property name="rect">0, 0, 480, 218</property>
+</public>
+<widgets>
+<widget name="imagebox1" class="imagebox">
+<public>
+<property name="rect">14, 16, 4, 15</property>
+<property name="background">255, 0, 0, 0</property>
+</public>
+</widget>
+<widget name="netTitlelabel" class="label">
+<public>
+<property name="rect">25, 7, 129, 31</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">Droid-Sans-Fallback.ttf, 20</property>
+</public>
+<property name="text">云音乐搜索</property>
+</widget>
+<widget name="sePanel" class="panel">
+<public>
+<property name="rect">319, 6, 154, 42</property>
+<property name="background">0, 239, 239, 239</property>
+<property name="backgroundImg">search.png</property>
+</public>
+<widgets>
+<widget name="netTextbox" class="textbox" bindchange="onTextChange">
+<public>
+<property name="rect">328, 10, 95, 35</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">255, 255, 255, 255</property>
+<property name="font">Droid-Sans-Fallback.TTF, 21</property>
+</public>
+<property name="text">Search</property>
+<property name="keyboard">keyboard/keyboard</property>
+</widget>
+<widget name="netseButton" class="button" bindtap="onSearch">
+<public>
+<property name="rect">429, 6, 41, 40</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="downImg">btn_sel.9.png</property>
+</widget>
+</widgets>
+</widget>
+<widget name="netList" class="listctrl">
+<public>
+<property name="rect">118, 54, 360, 163</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="gap">5</property>
+</widget>
+<widget name="panel1" class="panel">
+<public>
+<property name="rect">2, 131, 110, 86</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="backgroundImg">netpicture.png</property>
+</public>
+</widget>
+</widgets>
+</widget>
+</rtgui>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<widget class="Panel" name="MusicItem">
+<public>
+<property name="background">0, 212, 208, 200</property>
+<property name="rect">0, 0, 360, 50</property>
+</public>
+<widgets>
+<widget name="button1" class="button" bindtap="onMusicPlay">
+<public>
+<property name="rect">276, 2, 69, 44</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="norImg">play_off.png</property>
+<property name="downImg">play_on.png</property>
+</widget>
+<widget name="label1" class="label">
+<public>
+<property name="rect">13, 2, 243, 44</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">Droid-Sans-Fallback.ttf, 16</property>
+</public>
+<property name="text">label1</property>
+</widget>
+<widget name="line" class="imagebox">
+<public>
+<property name="rect">0, 48, 360, 1</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="img">videoList_line.png</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>

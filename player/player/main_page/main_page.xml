@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<class>Page</class>
+<widget class="Page" name="main_page">
+<public>
+<property name="background">255, 255, 255, 255</property>
+</public>
+<widgets>
+<widget name="panel2" class="panel">
+<public>
+<property name="rect">0, 218, 480, 53</property>
+<property name="background">255, 246, 246, 248</property>
+</public>
+<widgets>
+<widget name="pre" class="button" bindtap="onBtn">
+<public>
+<property name="rect">303, 224, 30, 40</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="backgroundImg">pre1.png</property>
+</public>
+<property name="downImg">onbtn.png</property>
+</widget>
+<widget name="next" class="button" bindtap="onBtn">
+<public>
+<property name="rect">391, 224, 30, 40</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="backgroundImg">next1.png</property>
+</public>
+<property name="downImg">onbtn.png</property>
+</widget>
+<widget name="curMusiclabel" class="label">
+<public>
+<property name="rect">122, 224, 151, 18</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">Droid-Sans-Fallback.TTF, 14</property>
+</public>
+<property name="text">庐州月-许嵩</property>
+</widget>
+<widget name="playSwitch" class="Switch" bindchange="onBtn">
+<public>
+<property name="rect">344, 224, 40, 40</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="offBgImg">play1.png</property>
+<property name="onBgImg">pause1.png</property>
+</widget>
+<widget name="playPgBarSlider" class="slider" bindchange="playOnSlider">
+<public>
+<property name="rect">122, 246, 140, 20</property>
+<property name="background">0, 24, 23, 32</property>
+</public>
+<property name="minValue">0</property>
+<property name="maxValue">1000</property>
+<property name="currentValue">0</property>
+<property name="norImg">grey.png</property>
+<property name="barImg">red.png</property>
+</widget>
+<widget name="volumeSwitch" class="Switch" bindchange="VolumeBtn">
+<public>
+<property name="rect">435, 227, 40, 40</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="backgroundImg">volume1.png</property>
+</public>
+</widget>
+<widget name="single_SW" class="Switch" bindchange="singleSwitch">
+<public>
+<property name="rect">59, 221, 50, 50</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="backgroundImg">music3.png</property>
+</public>
+</widget>
+<widget name="menuSwitch" class="Switch" bindchange="menuChoose">
+<public>
+<property name="rect">0, 218, 53, 53</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="backgroundImg">menu.png</property>
+</public>
+</widget>
+<widget name="playPgLabel" class="label">
+<public>
+<property name="rect">265, 250, 38, 13</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">255, 246, 246, 248</property>
+<property name="foreground">255, 194, 194, 196</property>
+<property name="font">Droid-Sans-Fallback.TTF, 12</property>
+</public>
+<property name="text">00:00</property>
+</widget>
+</widgets>
+</widget>
+</widgets>
+</widget>
+</rtgui>

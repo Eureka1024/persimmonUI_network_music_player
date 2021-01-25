@@ -1,0 +1,433 @@
+
+  <Object type="Library.page, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="page1" children="Controls">
+    <Object type="Library.panel, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="panel2" children="Controls">
+      <Object type="Library.label, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="playPgLabel" children="Controls">
+        <Property name="PmWidget">
+          <Property name="Align">MiddleCenter</Property>
+          <Property name="font">Droid-Sans-Fallback.TTF</Property>
+          <Property name="FontSize">12</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">265</Property>
+          <Property name="Y">32</Property>
+          <Property name="_Height">13</Property>
+          <Property name="_Name">playPgLabel</Property>
+          <Property name="_Width">38</Property>
+          <Property name="BkColor">255,246,246,248</Property>
+          <Property name="FrColor">255,194,194,196</Property>
+          <Property name="Opacity">255</Property>
+        </Property>
+        <Property name="Textd">00:00</Property>
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">246, 246, 248</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">194, 194, 196</Property>
+        <Property name="Location">265, 32</Property>
+        <Property name="Name">playPgLabel</Property>
+        <Property name="Size">38, 13</Property>
+        <Property name="TabIndex">43</Property>
+      </Object>
+      <Object type="Library.Switch, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="menuSwitch" children="Controls">
+        <Property name="BackSelImg">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+        </Property>
+        <Property name="PathBackSelImage" />
+        <Property name="BackNorImg">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+        </Property>
+        <Property name="PathBackNorImage" />
+        <Property name="ShowItem">Image</Property>
+        <Property name="ForegroundColor">255, 009, 187, 007</Property>
+        <Property name="BackgroundColor">255, 212, 208, 200</Property>
+        <Property name="PmWidget">
+          <Property name="MSBgImg">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</Property>
+          <Property name="Align">TopLeft</Property>
+          <Property name="font">点阵</Property>
+          <Property name="FontSize">16</Property>
+          <Property name="PathBackImage">menu.png</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">0</Property>
+          <Property name="Y">0</Property>
+          <Property name="_Height">53</Property>
+          <Property name="_Name">menuSwitch</Property>
+          <Property name="_Width">53</Property>
+          <Property name="BkColor">0,212,208,200</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">0</Property>
+        </Property>
+        <Property name="Textd" />
+        <Property name="BindChange">menuChoose</Property>
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">0, 212, 208, 200</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">0, 0</Property>
+        <Property name="Name">menuSwitch</Property>
+        <Property name="Size">53, 53</Property>
+        <Property name="TabIndex">44</Property>
+      </Object>
+      <Object type="Library.Switch, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="single_SW" children="Controls">
+        <Property name="BackSelImg">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+        </Property>
+        <Property name="PathBackSelImage" />
+        <Property name="BackNorImg">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+        </Property>
+        <Property name="PathBackNorImage" />
+        <Property name="ShowItem">Image</Property>
+        <Property name="ForegroundColor">255, 009, 187, 007</Property>
+        <Property name="BackgroundColor">255, 212, 208, 200</Property>
+        <Property name="PmWidget">
+          <Property name="MSBgImg">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</Property>
+          <Property name="Align">TopLeft</Property>
+          <Property name="font">点阵</Property>
+          <Property name="FontSize">16</Property>
+          <Property name="PathBackImage">music3.png</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">59</Property>
+          <Property name="Y">3</Property>
+          <Property name="_Height">50</Property>
+          <Property name="_Name">single_SW</Property>
+          <Property name="_Width">50</Property>
+          <Property name="BkColor">0,212,208,200</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">0</Property>
+        </Property>
+        <Property name="Textd" />
+        <Property name="BindChange">singleSwitch</Property>
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">0, 212, 208, 200</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">59, 3</Property>
+        <Property name="Name">single_SW</Property>
+        <Property name="Size">50, 50</Property>
+        <Property name="TabIndex">9</Property>
+      </Object>
+      <Object type="Library.Switch, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="volumeSwitch" children="Controls">
+        <Property name="BackSelImg">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+        </Property>
+        <Property name="PathBackSelImage" />
+        <Property name="BackNorImg">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+        </Property>
+        <Property name="PathBackNorImage" />
+        <Property name="ShowItem">Image</Property>
+        <Property name="ForegroundColor">255, 009, 187, 007</Property>
+        <Property name="BackgroundColor">255, 212, 208, 200</Property>
+        <Property name="PmWidget">
+          <Property name="MSBgImg">iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADnSURBVFhH7Za9DoIwFEZ9Jdzpjo+BD0OdiTN1x534FMQdd+JO2K75mpRUhIqxP0uHs1xKT8ttProbhpFCEeVBcCLv+ycJcaG2vS8+V1iX1/WVsuxARcEpTdniGIU1OXaZ50dJ1z1kLUn2H+N0/pbjE3N+krttmtvbMyty7KQszxL0UtUhY4zJOhahvwOsyFUPIakqMdXRU9OhsiJfm+Tb5FG+RpQbifKtdYUVOUIGETpPOC8ho8ernnCIVyzAabyagBTR6+zHsoUgv9Q5uEygFTgj3i4TOmgFzob3a9QvRHkQojwAI70Aq3MNDoOK6zMAAAAASUVORK5CYII=</Property>
+          <Property name="Align">TopLeft</Property>
+          <Property name="font">点阵</Property>
+          <Property name="FontSize">16</Property>
+          <Property name="PathBackImage">volume1.png</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">435</Property>
+          <Property name="Y">9</Property>
+          <Property name="_Height">40</Property>
+          <Property name="_Name">volumeSwitch</Property>
+          <Property name="_Width">40</Property>
+          <Property name="BkColor">0,212,208,200</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">0</Property>
+        </Property>
+        <Property name="Textd" />
+        <Property name="BindChange">VolumeBtn</Property>
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">0, 212, 208, 200</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">435, 9</Property>
+        <Property name="Name">volumeSwitch</Property>
+        <Property name="Size">40, 40</Property>
+        <Property name="TabIndex">46</Property>
+      </Object>
+      <Object type="Library.slider, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="playPgBarSlider" children="Controls">
+        <Property name="PmWidget">
+          <Property name="Align">TopLeft</Property>
+          <Property name="font">点阵</Property>
+          <Property name="FontSize">16</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">122</Property>
+          <Property name="Y">28</Property>
+          <Property name="_Height">20</Property>
+          <Property name="_Name">playPgBarSlider</Property>
+          <Property name="_Width">140</Property>
+          <Property name="BkColor">0,24,23,32</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">0</Property>
+        </Property>
+        <Property name="BindChange">playOnSlider</Property>
+        <Property name="BindChanging" />
+        <Property name="Event_func" />
+        <Property name="OnChange_func" />
+        <Property name="Min">0</Property>
+        <Property name="Max">1000</Property>
+        <Property name="ticks">10</Property>
+        <Property name="value">0</Property>
+        <Property name="thumb_width">8</Property>
+        <Property name="Orient">水平</Property>
+        <Property name="barImage">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAmgAAAJoAAACaAAAAAQEBAQoPAgAAAJoAAAACiVBORw0KGgoAAAANSUhEUgAAAE4AAAAFCAYAAADrNdqyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAvSURBVDhPY/jr6/v0v5/f/1FMPP7r4/NsNODIwKMBRyYeDTgy8WjAkYn/+vg8AwBnlfWZ+XGzfAAAAABJRU5ErkJgggs=</Binary>
+        </Property>
+        <Property name="PathBarImage">red.png</Property>
+        <Property name="sliderImage">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+        </Property>
+        <Property name="PathSliderImage" />
+        <Property name="normalImage">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAjwAAAI8AAACPAAAAAQEBAQoPAgAAAI8AAAACiVBORw0KGgoAAAANSUhEUgAAAE4AAAAFCAYAAADrNdqyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAkSURBVDhPYzh06Mj/UUw6Hg04MvFowJGJRwOOTDwacGThI/8BQYD+Z4nI10gAAAAASUVORK5CYIIL</Binary>
+        </Property>
+        <Property name="PathNormalImage">grey.png</Property>
+        <Property name="ShowItem">Image</Property>
+        <Property name="ForegroundColor">255, 009, 187, 007</Property>
+        <Property name="BackgroundColor">255, 212, 208, 200</Property>
+        <Property name="StrokeWidth">6</Property>
+        <Property name="SliderColor">255, 255, 255, 255</Property>
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">0, 24, 23, 32</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">122, 28</Property>
+        <Property name="Name">playPgBarSlider</Property>
+        <Property name="Size">140, 20</Property>
+        <Property name="TabIndex">42</Property>
+      </Object>
+      <Object type="Library.Switch, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="playSwitch" children="Controls">
+        <Property name="BackSelImg">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAgIAAAICAAACAgAAAQEBAQoPAgAAAAICAAACiVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGXSURBVFhHzZbRjgIhDEX3j9xnZ///Z8w4uzpOfGNzSWoASwsdGHk40VigJ1CKX9v2dCNiElvXzd1uq1uWP3e9/rp5XtzlMnvwHb8hhjEYy62hUSWGRKFEKZiDudyaOYrE7veHSSgFa2AtLkeKKoYj4ZLsAWtyuUJEMdQKt3ALsDaXk8iKtTg6DeTgcgNWrOdOpeR27k2sR01pcDUXieHGcBOPIL2tkdgRdZUjrbeXGBogN+FIwib8EvvkbhHhrnkxvGfcQInzeXKn07ebpp+qmAa9rV7McoxITNTENOg4vZilRUjJpZgGtQ4vZmmoUnIppkEN14tZCl9KLsU06AJ4MW6AhpRcipUwvtiwRzls8Q/bLoZtsHueJHzWxDSiJwlYLkBrqPAjMctxtoaOMRIDn9y1cLdAJDbsX2tgaR17oRYR8iYGLA3XCjXUFFYMHFFvaV2FZMVAz53L7RQhioEeNcfVVIoqBnBjWhwt1khvX44iMQIN0CKIOWHzLKFKjMB7hkQ4EtRKKIvv+A0xjKG3rxaTWH+e7h/Gmc0D2r1DGAAAAABJRU5ErkJgggs=</Binary>
+        </Property>
+        <Property name="PathBackSelImage">pause1.png</Property>
+        <Property name="BackNorImg">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAwgIAAMICAADCAgAAAQEBAQoPAgAAAMICAAACiVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAIAAAAnX375AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACdElEQVRYhb2XP5abMBDGR9KYPw9Se1NDaqffdOvnA0DaJb1r47Ns7pM9S/YCFgKDlEJr7AAGAba/igdCPwkNM98QzgU8Vmg4TkoppayqSimllJJSAgCllBBCCGGMUUoppbdBlmV5PB41o72OeoxewWKxQByYk/R82KqqiqLohPWIUmpZFmNsNDLPc732aUJE27a7H3XeFUJUVTWZBwBlWSqlHMdpP+rYZZZlYz/mNVFKXddt3GzuUghxKx4ASCmFEI29/ofM83zm92yrqqo8zy/PFS+fzYmXHpVliYh1DJ+RRVHcg1dPXh8q1gsZPML39z9BEDw9fZ2AlFLqvUIdsSZRul6/+L6fJEkUxROodfQSzoWUMsuywXfW6xd9EYbhbrcLw29jqa7rUkoJ56IsyzzPzZFacRy/vr76/hdzpG3biEg4F4a5rYEEAN/30zR9fv5hiNRZkHAuDNNbG6m1Wq3SNDUJK8aY4ziEc2GY4a4hAcD3/SiKkuRX/ww6ggjn4nA4DPL6kVphGL69/e4f43meqSswkVLKZBgCAKV0fiqPoihJkv4x2qkgABBC5sCCIEjT1OQ31aBZSM/zkiSJ45+G489IxtiEGrLZbLbb7ahUoIvJ51mOgi2Xy/1+v1p9H/UWXJ6ltqCDEeR5HgDEcTz4/13jaeRnJTFJsx8ffwFgWvGCU4KFS7t1Q5fV1qXvOqcCy7KEuFd/YllWfX1GMsYQ8R7259L4QMPh2batlLqtyWOMNWx7M8c6jnNb69w27B1p3XXd+Q0CnKpj+353JXEc59FtEJx+o4c2e7V6Wto2zKSlHS7RiIiID23ctfSMgzsw0T8d2kSTbqt5OwAAAABJRU5ErkJgggs=</Binary>
+        </Property>
+        <Property name="PathBackNorImage">play1.png</Property>
+        <Property name="ShowItem">Image</Property>
+        <Property name="ForegroundColor">255, 009, 187, 007</Property>
+        <Property name="BackgroundColor">255, 212, 208, 200</Property>
+        <Property name="PmWidget">
+          <Property name="Align">TopLeft</Property>
+          <Property name="font">点阵</Property>
+          <Property name="FontSize">16</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">344</Property>
+          <Property name="Y">6</Property>
+          <Property name="_Height">40</Property>
+          <Property name="_Name">playSwitch</Property>
+          <Property name="_Width">40</Property>
+          <Property name="BkColor">0,212,208,200</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">0</Property>
+        </Property>
+        <Property name="Textd" />
+        <Property name="BindChange">onBtn</Property>
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">0, 212, 208, 200</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">344, 6</Property>
+        <Property name="Name">playSwitch</Property>
+        <Property name="Size">40, 40</Property>
+        <Property name="TabIndex">45</Property>
+      </Object>
+      <Object type="Library.label, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="curMusiclabel" children="Controls">
+        <Property name="PmWidget">
+          <Property name="Align">MiddleLeft</Property>
+          <Property name="font">Droid-Sans-Fallback.TTF</Property>
+          <Property name="FontSize">14</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">122</Property>
+          <Property name="Y">6</Property>
+          <Property name="_Height">18</Property>
+          <Property name="_Name">curMusiclabel</Property>
+          <Property name="_Width">151</Property>
+          <Property name="BkColor">0,212,208,200</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">0</Property>
+        </Property>
+        <Property name="Textd">庐州月-许嵩</Property>
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">0, 212, 208, 200</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">122, 6</Property>
+        <Property name="Name">curMusiclabel</Property>
+        <Property name="Size">151, 18</Property>
+        <Property name="TabIndex">41</Property>
+      </Object>
+      <Object type="Library.button, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="next" children="Controls">
+        <Property name="PmWidget">
+          <Property name="MSBgImg">iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAIAAAAnX375AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA30lEQVRYhe3Vuw2DMBAGYJBS3gD2GFAGiQFMqoCgt1NjyoApwzAMEG9AStZgA5QyRTpQJEOCRaT728P3SZwf7jg+Hbs5WPaQRBJJJJHcERnH5yg6cc7nJa01Y8ykibvo8QqCo+M4lNI8l2EYTkpd9zBpsubHDsNQllff96tKUUqXLl8/y77vkyTOsoxzAQA2yHfattX6nueF+ZI1s/yUDWc5CQBIWTTNzfD7b8k0TYW4AIAN0vM8pWpLO5YQImUxOZdbkYQQxiIhxLykVG3YZNmO/Ul2f60jiSSSSP4x+QKOrDvppd3cCgAAAABJRU5ErkJggg==</Property>
+          <Property name="Align">MiddleCenter</Property>
+          <Property name="font">点阵</Property>
+          <Property name="FontSize">16</Property>
+          <Property name="PathBackImage">next1.png</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">391</Property>
+          <Property name="Y">6</Property>
+          <Property name="_Height">40</Property>
+          <Property name="_Name">next</Property>
+          <Property name="_Width">30</Property>
+          <Property name="BkColor">0,212,208,200</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">0</Property>
+        </Property>
+        <Property name="LongPress">False</Property>
+        <Property name="longPressMs">100</Property>
+        <Property name="longPressOnce">False</Property>
+        <Property name="Press">False</Property>
+        <Property name="Value" />
+        <Property name="ShowItem">Image</Property>
+        <Property name="ForegroundColor">255, 009, 187, 007</Property>
+        <Property name="BackgroundColor">255, 212, 208, 200</Property>
+        <Property name="Pressed_image">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAnwcAAJ8HAACfBwAAAQEBAQoPAgAAAJ8HAAACiVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAc0SURBVFhHxZh7TFvXHcevr30fftsXG9uYBmKSBhzyoIBjHo6DeRmbh5NBKA6PMjAvYSDghPcraQjQho6FNgsaAZpUWdosyVppf7WatknVpjZS91CmrZu2StGapVWzJlC6GvPbMXaiRb3KEgLuV/r8Y/n7u1+de849v3OwNUtfQkqMxYw6xRml3lMRF2l8YQdjqTeEZbqSZek1O0Xmuli56YVnwlK/L8bMZh5ycALGDdUgLkosUwiyWmz0/t6fMlUjf1G5XvosquX0l3Ge6bu7+mbv7u6fvRvfPX03pm3yzubqyU81Jcf/qLB7zoly3bXSdLvcXyNYbF2FaxLzFWE5rY1M6cTvYpvn71j73ljOcE/Bdkcb6EwHQb3DAhEJuQgriLV6EKqfBWmiDbY6uyGjb9a73X3mC+3BoQ8Za9ugILlK7a8ZKP104mDGYj6T01ypLD91fZdn7p6pc8YXa60EqSoKSEr0WAjkWhDpkiG2anglrev8otY5+idxtrtdtTNbGHzO2iTdVSTT5nfM6htm/mkemvMlVraDQqtjDfE40EIZ4NpYSKh7eUXvmrqtLXKPB177kwvnGyu16uITvzb2XbqX0jYKm+INrA9dK/zoJNg7fGlBUdj5rtJYvuWJ5qZqT1W0qmTk+r6hc18bmgZAKFOyPuRp4QrUUDJ8/htN2bGPReaq2ODjHy2JsYaJ/N7A+xnHrn6dUOsBgSSMtfh6gctiIHP4jeWI4u4PlIHF8whFmWl1Uef0cwPvLMQ7qlgLbgQELYWCnrlFeenJV/2LMpjmW+KIrC37tc3nbx5oPc5aaCMhFDGQ1Hru0zDrkUMoy7fno9RcJdOVD/02Z+TaMqPaxFpko9E7WnzRlSO/F6UXK4Ox7msQZ2ztg6ae2S/DdfGs5lDAESjAMjC/KCvqnQhujwFJ053yKOfoRylNJ31sxlBBobm41XRgRX7o1I2w1OcjgvEwLMzaVpDUPvMFRUtYjaGCQFB8CZj65xekdo8rkA4Npaao65L1xbe8bKZQ4g9I0jRktP/Ap9g/8Bt/x4RhhkOS6IqTf8jsnl5hM4UKf7jVgDweROzcC5EVk38XmcsUmCyjetfW+tP/SnJ2sBpDBQ/BJYVA4zgQpAhimi/ckZjRFii2uPK2H55bYLRbWY2hgksKAEcBpRQBfIKE3V3v3GOyGoyYNLvpiKH3rf+wmUIJj6CAyyMBI/nAwzFI6b28qLC6zZjC1jqWduxnXlooZzWGCh5BPwhIoIDpA1e/0hS0ZGOKvNaX0oavepnILazGUOEPh3MJwFBQgrM6gkvqArcVY/LcJ9OGrnjDddtZjaHCH46Dc1FANIIooGn47SWtvcmGyazN5Qmdby5RcjWrMVQEAhKrq5hLCMDcfeErQWazHZNZGkyxjT+6Q2/SsxpDB1ocJIUCcoBDMRDfeObfon01aZhod7FSVz7+t3BzKYsptPDQyBEcHCSbEkBXM3VTmVyCGli0nUQc6P9FUssPv9NG4T5cFDDN6VmRF49/9KB51ea6K8x9FxcIyXc7Dyn0sSZJKWoW3l4Ktx8dRdECjassxRkVVT7+icbiZDWGCoLLA+UWA2yueOWmfwteDbcqq5VS2rt/Yj1x2UsKZKzmUECgLc7R9+PlCEffZcxofOhswlGa69Kja6duqfeVsJo3FP9HGjWr0ugdsK32lVvSnMYMf6ZAtPtCJzpR/vCF3ONXFgltaD45FOpaOBQPeAIOahQiIXvk2mKE4+iEP0sw1cOik0qfiSrtf89+4k0voYphLbpe+D8pHJIHFIaBCBeDo3faR1WMXvffaATjsIqjzKiM0VRP3kj3nF6m1ZtZiz8NBFqpFI3CcbhozuEg5AhhT+2IT+4a+0d4orsIZfh/VyCDuDS7wbLNdeqv+9omlvm6BNYHPSkU6vXut1T+bY2LILgMZDaP+5j6sU+EmY2lD53kHin0R3FGk01bOfbnvOF5L6V5ynMymmsETxgIh/OApvmAo6ag0HPGq66b+Fi+t+ng44d7IDSSFtdzTHHPL219s/eYnalAip78noZHidGrpNBocUFIotdKkSCJjAPH2LUlzfOjH8r2NpjWEO6BOIJkm5rZ3/N6XM3E5/lDcz6RzoBWHcMa5n/hoSMsTZJAEuh1kjSacwRINAmQ33Fm+VnX1G25o+ccZSrfvD5XwmhPxLMOu5iiwffj6iY/z+mf8+rt1SsUWulE8CxN0CLgo45EiF6flI9Gi+aikOj3sGjYludaye2d/0bveu0z5YGRX4ktLeVYYr4gWH3dhMsTs6TC3OYs2uaZUZSNfrCl/uwtY8fcYl7v697C/tmVtKOXwHDkIqQOXIE9/Zd9iUcuLukbz96OLHvxhrKga0ZirkjCthWKUa0Nv/HnYqmFYpW5PprJrK9k8g6fVRX2XlU7ut5VF3W/F17Q+XPG3nE+PLPpMGOo1suzSqRo5a1hnmHYfwE/XR56YPkTuAAAAABJRU5ErkJgggs=</Binary>
+        </Property>
+        <Property name="Unpressed_image">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+        </Property>
+        <Property name="PathPressed_image">onbtn.png</Property>
+        <Property name="PathUnpressed_image" />
+        <Property name="BindTap">onBtn</Property>
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">0, 212, 208, 200</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">391, 6</Property>
+        <Property name="Name">next</Property>
+        <Property name="Size">30, 40</Property>
+        <Property name="TabIndex">3</Property>
+      </Object>
+      <Object type="Library.button, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="pre" children="Controls">
+        <Property name="PmWidget">
+          <Property name="MSBgImg">iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAIAAAAnX375AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA1ElEQVRYhe3VsQqDMBAG4Ah9CV/DsX0DH8COFX2Vql3rnr1G7OoesWNe49wTpJsd3FpakisEhPvHhOMjx5EL5vnJ/Gbn2SOSSCKJJNI+AND3fZZl9iWB5SY5HPbj+Hg75Jy3baO1+bz6EeQrlVJlWQAAotaZBIC6vkopEZgzaYwRQghx09qgPTcyTU+4TuLJZVn+99zIrrtzzoVojPHVWMZYnudxHPsbnzVhGFbVRSlVFOdpmnyQa6IoQvfZ9vf5FgAYBpkkR38kIhvcJEQSSSSRmyFf+whil7JR5YcAAAAASUVORK5CYII=</Property>
+          <Property name="Align">MiddleCenter</Property>
+          <Property name="font">点阵</Property>
+          <Property name="FontSize">16</Property>
+          <Property name="PathBackImage">pre1.png</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">303</Property>
+          <Property name="Y">6</Property>
+          <Property name="_Height">40</Property>
+          <Property name="_Name">pre</Property>
+          <Property name="_Width">30</Property>
+          <Property name="BkColor">0,212,208,200</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">0</Property>
+        </Property>
+        <Property name="LongPress">False</Property>
+        <Property name="longPressMs">100</Property>
+        <Property name="longPressOnce">False</Property>
+        <Property name="Press">False</Property>
+        <Property name="Value" />
+        <Property name="ShowItem">Image</Property>
+        <Property name="ForegroundColor">255, 009, 187, 007</Property>
+        <Property name="BackgroundColor">255, 212, 208, 200</Property>
+        <Property name="Pressed_image">
+          <Binary>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</Binary>
+        </Property>
+        <Property name="Unpressed_image">
+          <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+        </Property>
+        <Property name="PathPressed_image">onbtn.png</Property>
+        <Property name="PathUnpressed_image" />
+        <Property name="BindTap">onBtn</Property>
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">0, 212, 208, 200</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">303, 6</Property>
+        <Property name="Name">pre</Property>
+        <Property name="Size">30, 40</Property>
+        <Property name="TabIndex">2</Property>
+      </Object>
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="font">点阵</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">0</Property>
+        <Property name="Y">218</Property>
+        <Property name="_Height">53</Property>
+        <Property name="_Name">panel2</Property>
+        <Property name="_Width">480</Property>
+        <Property name="BkColor">255,246,246,248</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">255</Property>
+      </Property>
+      <Property name="BindTouch" />
+      <Property name="CustomPanel" />
+      <Property name="AutoScroll">True</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">246, 246, 248</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">0, 218</Property>
+      <Property name="Name">panel2</Property>
+      <Property name="Size">480, 53</Property>
+      <Property name="TabIndex">8</Property>
+    </Object>
+    <Property name="Text">main_page</Property>
+    <Property name="win_location">449, 307</Property>
+    <Property name="EnterAnimState">False</Property>
+    <Property name="EmergeLocation">无</Property>
+    <Property name="Frame">10</Property>
+    <Property name="FrameInterval">50</Property>
+    <Property name="QuitAnimState">False</Property>
+    <Property name="QEmergeLocation">无</Property>
+    <Property name="QFrame">10</Property>
+    <Property name="QFrameInterval">50</Property>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="font">点阵</Property>
+      <Property name="FontSize">16</Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">464</Property>
+      <Property name="Y">322</Property>
+      <Property name="_Height">272</Property>
+      <Property name="_Name">main_page</Property>
+      <Property name="_Width">480</Property>
+      <Property name="BkColor">255,255,255,255</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+      <Property name="Opacity">255</Property>
+    </Property>
+    <Property name="BackColor">White</Property>
+    <Property name="ClientSize">480, 272</Property>
+    <Property name="Location">464, 322</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="ForeColor">Black</Property>
+    <Property name="Name">page1</Property>
+  </Object>

@@ -1,0 +1,343 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.button, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="commentButton" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="font">Droid-Sans-Fallback.TTF</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">383</Property>
+        <Property name="Y">36</Property>
+        <Property name="_Height">28</Property>
+        <Property name="_Name">commentButton</Property>
+        <Property name="_Width">77</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Press">False</Property>
+      <Property name="Value">评论区</Property>
+      <Property name="ShowItem">Image</Property>
+      <Property name="ForegroundColor">255, 009, 187, 007</Property>
+      <Property name="BackgroundColor">255, 212, 208, 200</Property>
+      <Property name="Pressed_image">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAA+QAAAPkAAAAAAQAAAQEBAQoPAgAAAAABAAACiVBORw0KGgoAAAANSUhEUgAAACAAAAAWCAYAAAChWZ5EAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS41ZEdYUgAAAHdJREFUSEvtlrENwDAIBJmAMdJ5dM9InhincEgXTApeugrkf0tIQC+SIHyJoHYIgwY6kCD0bfXgy/PWMI80XlEvNndopPIaI2nmDu39/aSbO4bDb4jHBtMv7qACVIAKUAEqgAVIX0a/WMe5B0n+SfbUHJCvWUR0AhKvOdwrg5ocAAAAAElFTkSuQmCCAAAAAAAAAAs=</Binary>
+      </Property>
+      <Property name="Unpressed_image">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+      </Property>
+      <Property name="PathPressed_image">btn_sel.9.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">
+      </Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">383, 36</Property>
+      <Property name="Name">commentButton</Property>
+      <Property name="Size">77, 28</Property>
+      <Property name="TabIndex">17</Property>
+    </Object>
+    <Object type="Library.listctrl, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="commentListctrl" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="font">点阵</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">284</Property>
+        <Property name="Y">70</Property>
+        <Property name="_Height">138</Property>
+        <Property name="_Name">commentListctrl</Property>
+        <Property name="_Width">186</Property>
+        <Property name="BkColor">200,242,241,238</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">200</Property>
+      </Property>
+      <Property name="BindChange" />
+      <Property name="BindTap" />
+      <Property name="ScrollBarImage" />
+      <Property name="ScrollbarBgImage" />
+      <Property name="BoundaryImgHImage" />
+      <Property name="BoundaryImgVImage" />
+      <Property name="ScrollbarOffset">0</Property>
+      <Property name="itemGap">5</Property>
+      <Property name="Orient">垂直</Property>
+      <Property name="ItemAlign">None</Property>
+      <Property name="AutoScroll">True</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">200, 242, 241, 238</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">284, 70</Property>
+      <Property name="Name">commentListctrl</Property>
+      <Property name="Size">186, 138</Property>
+      <Property name="TabIndex">16</Property>
+      <Property name="Tag">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAAH9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24GAAAICAkCAAAAAAAAAAAAAAARAgAAAAAAAAAL</Binary>
+      </Property>
+    </Object>
+    <Object type="Library.listctrl, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="lyrilistctrl" children="Controls">
+      <Object type="Library.MultiTextBox, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="lyricMultiTextBox" children="Controls">
+        <Property name="PmWidget">
+          <Property name="Align">TopLeft</Property>
+          <Property name="font">Droid-Sans-Fallback.TTF</Property>
+          <Property name="FontSize">16</Property>
+          <Property name="Visibled">False</Property>
+          <Property name="X">0</Property>
+          <Property name="Y">5</Property>
+          <Property name="_Height">122</Property>
+          <Property name="_Name">lyricMultiTextBox</Property>
+          <Property name="_Width">252</Property>
+          <Property name="BkColor">255,255,255,255</Property>
+          <Property name="FrColor">255,0,0,0</Property>
+          <Property name="Opacity">255</Property>
+        </Property>
+        <Property name="RowHeight">20</Property>
+        <Property name="Textd" />
+        <Property name="AllowDrop">True</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="BackgroundImageLayout">Center</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">0, 5</Property>
+        <Property name="Name">lyricMultiTextBox</Property>
+        <Property name="Size">252, 122</Property>
+        <Property name="TabIndex">6</Property>
+      </Object>
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="font">点阵</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">7</Property>
+        <Property name="Y">70</Property>
+        <Property name="_Height">143</Property>
+        <Property name="_Name">lyrilistctrl</Property>
+        <Property name="_Width">265</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="BindChange" />
+      <Property name="BindTap" />
+      <Property name="ScrollBarImage" />
+      <Property name="ScrollbarBgImage" />
+      <Property name="BoundaryImgHImage" />
+      <Property name="BoundaryImgVImage" />
+      <Property name="ScrollbarOffset">0</Property>
+      <Property name="itemGap">5</Property>
+      <Property name="Orient">垂直</Property>
+      <Property name="ItemAlign">None</Property>
+      <Property name="AutoScroll">True</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">7, 70</Property>
+      <Property name="Name">lyrilistctrl</Property>
+      <Property name="Size">265, 143</Property>
+      <Property name="TabIndex">15</Property>
+      <Property name="Tag">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAAH9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24GAAAICAkCAAAAAQAAAAEAAAARAgAAAAQAAAAGAwAAABFseXJpY011bHRpVGV4dEJveA0DCw==</Binary>
+      </Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="imagebox1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="MSBgImg">iVBORw0KGgoAAAANSUhEUgAAADgAAAAaCAMAAADVPG8RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAKJQTFRFAAAA////9MfH6FdW5k9P505O52pm9MjI////5D094zIy3SAg7ZCQ////2h4e4iUr4zg45Wpn6VdX3C8v+tra5EZG+tra2h4e////+uHf1hwc0hoazxcXxBYX1Cop4nNz1F5d++jo9bSw////1TQz4nN076yr1F5cyUZHzxYWxCsszBUV9NnZxCsr9t/fuRUPyUZIznFz4rq6ujIzrRER4rq68c+xjAAAADZ0Uk5TAEBg/69/f29Q////n4D///+fn/9v/5+g/3D//////5///59w//+goLCg//+gsHD/oKBg//+gBov+CwAAASZJREFUeJydlAtXgyAYhqmsdEu60OrrE9xsrstWrVr9/78Wl4GgroM+IudTfM57EA6EkCMyjuOT5DSOs3PfS7PJNJJJduGJOY31pvTy6nqUqEJvRiXKmyW3do50CNKc3e3N+2AEwh66Lps9mEQM34Pz+kWkLDFzRPVgLvmhpanADduPmP5DedGXB/s4PxS5EFzFlGyuRfRwMQjYNANfVNWCq4qyx47o7h6xAqi0iGW2JDkvPFxiU4EdQyWiLnndFrVse9cM5QpgVWpPPJFQBPCDWiLWWV2j9p7VOvI2YHvXDIVuEvGiF/L1gOhoj4u13jrp5mAiDwvnvZmd0xH/x3oDxY3zpDgE8f5BxojbT++wWovouO2Xf8x9734i2f2GB2uaR7L0rT+EfHVa64I2IAAAAABJRU5ErkJggg==</Property>
+        <Property name="Align">TopLeft</Property>
+        <Property name="font">点阵</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="PathBackImage">danqu.png</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">15</Property>
+        <Property name="Y">9</Property>
+        <Property name="_Height">29</Property>
+        <Property name="_Name">singleImagebox</Property>
+        <Property name="_Width">64</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="MSImage">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+      </Property>
+      <Property name="ImagePath" />
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">15, 9</Property>
+      <Property name="Name">imagebox1</Property>
+      <Property name="Size">64, 29</Property>
+      <Property name="TabIndex">14</Property>
+    </Object>
+    <Object type="Library.label, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="artistsLabel" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleLeft</Property>
+        <Property name="font">Droid-Sans-Fallback.TTF</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">70</Property>
+        <Property name="Y">44</Property>
+        <Property name="_Height">20</Property>
+        <Property name="_Name">artistsLabel</Property>
+        <Property name="_Width">60</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="Textd" />
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">70, 44</Property>
+      <Property name="Name">artistsLabel</Property>
+      <Property name="Size">60, 20</Property>
+      <Property name="TabIndex">13</Property>
+    </Object>
+    <Object type="Library.label, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="singerLabel" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleLeft</Property>
+        <Property name="font">Droid-Sans-Fallback.TTF</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">22</Property>
+        <Property name="Y">44</Property>
+        <Property name="_Height">20</Property>
+        <Property name="_Name">singerLabel</Property>
+        <Property name="_Width">42</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="Textd">歌手：</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">22, 44</Property>
+      <Property name="Name">singerLabel</Property>
+      <Property name="Size">42, 20</Property>
+      <Property name="TabIndex">12</Property>
+    </Object>
+    <Object type="Library.label, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="singleNameLabel" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleLeft</Property>
+        <Property name="font">Droid-Sans-Fallback.TTF</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">95</Property>
+        <Property name="Y">9</Property>
+        <Property name="_Height">29</Property>
+        <Property name="_Name">singleNameLabel</Property>
+        <Property name="_Width">177</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="Textd">庐州月</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">95, 9</Property>
+      <Property name="Name">singleNameLabel</Property>
+      <Property name="Size">177, 29</Property>
+      <Property name="TabIndex">11</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="singleReturnBtn" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="font">点阵</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">427</Property>
+        <Property name="Y">2</Property>
+        <Property name="_Height">28</Property>
+        <Property name="_Name">singleReturnBtn</Property>
+        <Property name="_Width">53</Property>
+        <Property name="BkColor">0,255,255,255</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Press">False</Property>
+      <Property name="Value" />
+      <Property name="ShowItem">Image</Property>
+      <Property name="ForegroundColor">255, 009, 187, 007</Property>
+      <Property name="BackgroundColor">255, 212, 208, 200</Property>
+      <Property name="Pressed_image">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+      </Property>
+      <Property name="Unpressed_image">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAkAEAAJABAACQAQAAAQEBAQoPAgAAAJABAAACiVBORw0KGgoAAAANSUhEUgAAACYAAAAcCAMAAAA6Aj1XAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAFpQTFRFAAAA////////////9PT07Ozs5ubm9PT06urq9PT0/Pz8////8/Pz6urq6urq/v7+////////9fX1jY2N4uLixsbGg4ODZmZmjIyMenp6eXl56enp9PT06enpDVflgAAAAB50Uk5TAFB/b2D//59g/////5///3CA/////////////6CgPB+ppQAAAKVJREFUeJyd09sSgiAQgGEooThUQq6g2fu/ZivVxIXuMv3X36wjsEJg8kB0FJ86pYnU6a3Oxjoi6y9llqHQmsF58nrjmFW9CJpTzumwz+J94BigGlPmWAJUY2RZmipFsDT/FMUStLHKUQdS9ReD8i1+GrSxOLUwPPmZZ+V+gGW53A9wbMhxg2z8wl7I5KPpkYvOc8wvZQEjs4DPpnVevmsvA1G/iheF1S3BZO4GGgAAAABJRU5ErkJgggs=</Binary>
+      </Property>
+      <Property name="PathPressed_image" />
+      <Property name="PathUnpressed_image">suofang.png</Property>
+      <Property name="BindTap">onBtn</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">Transparent</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">427, 2</Property>
+      <Property name="Name">singleReturnBtn</Property>
+      <Property name="Size">53, 28</Property>
+      <Property name="TabIndex">10</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="font">点阵</Property>
+      <Property name="FontSize">16</Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">370</Property>
+      <Property name="Y">349</Property>
+      <Property name="_Height">218</Property>
+      <Property name="_Name">singlePanel</Property>
+      <Property name="_Width">480</Property>
+      <Property name="BkColor">255,212,208,200</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+      <Property name="Opacity">255</Property>
+    </Property>
+    <Property name="BackColor">212, 208, 200</Property>
+    <Property name="ClientSize">480, 218</Property>
+    <Property name="Location">370, 349</Property>
+    <Property name="Text">singlePanel</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="ForeColor">Black</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>

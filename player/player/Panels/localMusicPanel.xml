@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<widget class="Panel" name="localMusicPanel">
+<public>
+<property name="background">0, 212, 208, 200</property>
+<property name="rect">0, 0, 480, 218</property>
+</public>
+<widgets>
+<widget name="imagebox1" class="imagebox">
+<public>
+<property name="rect">16, 17, 4, 15</property>
+<property name="background">255, 0, 0, 0</property>
+</public>
+</widget>
+<widget name="localTitleLabel" class="label">
+<public>
+<property name="rect">27, 8, 86, 31</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 0, 0, 0</property>
+<property name="font">Droid-Sans-Fallback.ttf, 20</property>
+</public>
+<property name="text">本地音乐</property>
+</widget>
+<widget name="localList" class="listctrl">
+<public>
+<property name="rect">118, 54, 360, 163</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="gap">3</property>
+</widget>
+<widget name="panel1" class="panel">
+<public>
+<property name="rect">1, 100, 100, 117</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="backgroundImg">localpicture.png</property>
+</public>
+</widget>
+</widgets>
+</widget>
+</rtgui>

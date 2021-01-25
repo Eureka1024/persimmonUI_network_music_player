@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<widget class="Panel" name="menuPanel">
+<public>
+<property name="background">220, 255, 255, 255</property>
+<property name="rect">0, 0, 480, 218</property>
+</public>
+<widgets>
+<widget name="CarouselImage1" class="CarouselImage" bindchange="CIbindchang" bindtap="onAppCIbindtap">
+<public>
+<property name="rect">82, 63, 299, 102</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="direction">HORIZONTAL</property>
+<property name="norSize">140</property>
+<property name="showNum">3</property>
+<property name="zoom">35</property>
+<property name="images">
+<image>setting.png</image>
+<image>recommend.png</image>
+<image>onlineMusic.png</image>
+<image>localMusic.png</image>
+</property>
+<property name="strings">
+<string>localMusic</string>
+<string>onlineMusic</string>
+<string>recommend</string>
+<string>setting</string>
+</property>
+</widget>
+<widget name="settingLabel" class="label">
+<public>
+<property name="rect">168, 26, 118, 30</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="foreground">255, 255, 0, 0</property>
+<property name="font">Droid-Sans-Fallback.TTF, 20</property>
+</public>
+<property name="text">设置</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>

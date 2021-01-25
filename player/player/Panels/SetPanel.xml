@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<widget class="Panel" name="SetPanel">
+<public>
+<property name="background">0, 212, 208, 200</property>
+<property name="rect">0, 0, 480, 218</property>
+</public>
+<widgets>
+<widget name="imagebox1" class="imagebox">
+<public>
+<property name="rect">7, 61, 122, 139</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="img">wifilog.png</property>
+</widget>
+<widget name="switch_wifi" class="Switch">
+<public>
+<property name="rect">55, 7, 74, 30</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="text">WiFi</property>
+<property name="offBgImg">Slice_left_off.png</property>
+<property name="onBgImg">Slice_left_on.png</property>
+<property name="switchOn" />
+</widget>
+<widget name="switch_time" class="Switch">
+<public>
+<property name="rect">129, 7, 72, 30</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="text">时间</property>
+<property name="offBgImg">Slice_middle_off.png</property>
+<property name="onBgImg">Slice_middle_on.png</property>
+</widget>
+<widget name="switch_language" class="Switch">
+<public>
+<property name="rect">201, 7, 72, 30</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="text">语言</property>
+<property name="offBgImg">Slice_middle_off.png</property>
+<property name="onBgImg">Slice_middle_on.png</property>
+</widget>
+<widget name="switch_volume" class="Switch">
+<public>
+<property name="rect">273, 7, 72, 30</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="text">音量</property>
+<property name="offBgImg">Slice_middle_off.png</property>
+<property name="onBgImg">Slice_middle_on.png</property>
+</widget>
+<widget name="switch_aboutus" class="Switch">
+<public>
+<property name="rect">345, 7, 76, 30</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="text">关于我们</property>
+<property name="offBgImg">Slice_right_off.png</property>
+<property name="onBgImg">Slice_right_on.png</property>
+</widget>
+<widget name="wifiListctrl" class="listctrl">
+<public>
+<property name="rect">152, 61, 300, 150</property>
+<property name="background">0, 0, 0, 0</property>
+</public>
+<property name="gap">5</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>

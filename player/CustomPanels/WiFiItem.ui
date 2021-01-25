@@ -1,0 +1,102 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.button, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="button1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleLeft</Property>
+        <Property name="font">Droid-Sans-Fallback.TTF</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">53</Property>
+        <Property name="Y">1</Property>
+        <Property name="_Height">28</Property>
+        <Property name="_Name">button1</Property>
+        <Property name="_Width">206</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Press">False</Property>
+      <Property name="Value">WiFi名称</Property>
+      <Property name="ShowItem">Image</Property>
+      <Property name="ForegroundColor">255, 009, 187, 007</Property>
+      <Property name="BackgroundColor">255, 212, 208, 200</Property>
+      <Property name="Pressed_image">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+      </Property>
+      <Property name="Unpressed_image">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQoPAgAAAAAAAAACCw==</Binary>
+      </Property>
+      <Property name="PathPressed_image">
+      </Property>
+      <Property name="PathUnpressed_image">
+      </Property>
+      <Property name="BindTap">wifiOnBtn</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">53, 1</Property>
+      <Property name="Name">button1</Property>
+      <Property name="Size">206, 28</Property>
+      <Property name="TabIndex">1</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="imagebox1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="font">点阵</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">9</Property>
+        <Property name="Y">1</Property>
+        <Property name="_Height">28</Property>
+        <Property name="_Name">imagebox1</Property>
+        <Property name="_Width">28</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="MSImage">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAbwQAAG8EAABvBAAAAQEBAQoPAgAAAG8EAAACiVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQESURBVEhL7VRNiBxFFP6MSsyPMYqaeFGjBy8hCIoaRSGQBBQERSKrAS9i/Al4iHoQwcEcJLJiprfnZ39GZ2emu8cMnhYjrAQMukZzUBTBg24Qo9FoskYz01XVM9Lt92p6lM2yA2uYWz54dHXVq/fqffXVwwVYJMlFGEsuxYF4BRrJatROr7EmY5mTNfE5bzjfLYenbkDt7L3w1Q747V20PQjMy9Y88wLqMsc18RFf2bMkNJKLEcTrGHgz3o2egG8C1PQcqiZBNepahWOx3r+siU9g6t093CsxJNaiEErKZ9bC01vgR28ywNeYNC2UTYyS7mDMnMGo+Rl5NYuC+hY5WsHMoqhPYFz/aX3Et8I9sldiSKxysnYh3TJR1zciiF6j42co6zYmeOqiDpHTR2j74ZoXMaKfwoh6DCPmIWTDh5mUYzv3Ehzl8P8oikqjxL2TjOGZz5l0L6p6AzKZZd1kmWQZ7+Fu1FQZFSaY0AmrOA1XT8FVrzDIfcj9trrr3AdvnLocDityWq9y30HGmLOxJKbE9tQ92NEgxV0KZ/C2jkhVm6f9gqfdg0K0EcO/rmL5S1AffYfjVchGm2zVrvoKBVYqsT3zKavewoTmqKUvrwxGWlNwwruw748r0ggLIfQf4VOYOrGy71PYz7tz1Wba+8hrY2mukXJMqEOc1KyqhGxzY+r+Hz6I11CFD1II+3i4gNR8SOV+3DU1za8PX7/O7wMokdZzkW9ughtWqAPNXNNgyTfxBNuRS9bb++xhKlmJurmflL/HRMeZ8CzFFJEeqpanFZOxzHnmL9qPrKABv7PVNoMeJOZo6zoUO9uo5g2cIS2Zjy7prqbwk6vtqT0zZ9VWFCHR3DCG2zqJXGsGuXCGwvrdzsma+Ewyed2cghftZdKr0mhdLPomRcI1M87NIcZsEgopPEjah/AW2RAhOfFyayIQR9/Mtccpkml+26xClNkkxTlU1PVp1D6odbbzAZ8k1THf2ywreZa9cnER9VBIruTBnqcWfrB732GTqOpt6Wof5MI7SdUntC/hdh6Zd68CoaacXGbtXJrkv1vtNxTJYRTDO9KVPpD7zDbXodC8dp7sDxxfYZtznQIL2rsR6N28562WNknegxxwmHud+Jr+vbQfpB96PLlnDlOt7X+btox9cwiBehSleOGT+F+QKj39JCbVT7yXBKNakbZjbHnHODa8bybnvfl/D6U7zhNCUYWPflT/wkTfU5UOsqw2p3bCMXmqWBJTIGz8/TrPkiB91dXPMNEQMmxpPYyxOTjNnVzbRUpvSWcHgKB9O/zwtvRvwJDG4FEo0lMbrfXp7ADhRbdiXCk24hDVWHrjgFFlO8uHz7F3Pj3v/Q0UIhaxC1gA4B9uYq9O4a0VFQAAAABJRU5ErkJgggs=</Binary>
+      </Property>
+      <Property name="ImagePath">wifilog1.png</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">9, 1</Property>
+      <Property name="Name">imagebox1</Property>
+      <Property name="Size">28, 28</Property>
+      <Property name="TabIndex">0</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="font">点阵</Property>
+      <Property name="FontSize">16</Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">554</Property>
+      <Property name="Y">443</Property>
+      <Property name="_Height">30</Property>
+      <Property name="_Name">WiFiItem</Property>
+      <Property name="_Width">300</Property>
+      <Property name="BkColor">0,212,208,200</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+      <Property name="Opacity">0</Property>
+    </Property>
+    <Property name="BackColor">212, 208, 200</Property>
+    <Property name="ClientSize">300, 30</Property>
+    <Property name="Location">554, 443</Property>
+    <Property name="Text">WiFiItem</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="ForeColor">0, 0, 0</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>

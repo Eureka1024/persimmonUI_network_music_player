@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<widget class="Panel" name="singlePanel">
+<public>
+<property name="rect">0, 0, 480, 218</property>
+</public>
+<widgets>
+<widget name="singleReturnBtn" class="button" bindtap="onBtn">
+<public>
+<property name="rect">427, 2, 53, 28</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 255, 255, 255</property>
+</public>
+<property name="norImg">suofang.png</property>
+</widget>
+<widget name="singleNameLabel" class="label">
+<public>
+<property name="rect">95, 9, 177, 29</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">Droid-Sans-Fallback.TTF, 16</property>
+</public>
+<property name="text">庐州月</property>
+</widget>
+<widget name="singerLabel" class="label">
+<public>
+<property name="rect">22, 44, 42, 20</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">Droid-Sans-Fallback.TTF, 12</property>
+</public>
+<property name="text">歌手：</property>
+</widget>
+<widget name="artistsLabel" class="label">
+<public>
+<property name="rect">70, 44, 60, 20</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">Droid-Sans-Fallback.TTF, 12</property>
+</public>
+</widget>
+<widget name="singleImagebox" class="imagebox">
+<public>
+<property name="rect">15, 9, 64, 29</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="backgroundImg">danqu.png</property>
+</public>
+</widget>
+<widget name="lyrilistctrl" class="listctrl">
+<public>
+<property name="rect">7, 70, 265, 143</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="gap">5</property>
+<widgets>
+<widget name="lyricMultiTextBox" class="MultiTextBox">
+<public>
+<property name="rect">7, 75, 252, 122</property>
+<property name="background">255, 255, 255, 255</property>
+<property name="font">Droid-Sans-Fallback.TTF, 16</property>
+</public>
+<property name="rowheight">20</property>
+</widget>
+</widgets>
+</widget>
+<widget name="commentListctrl" class="listctrl">
+<public>
+<property name="rect">284, 70, 186, 138</property>
+<property name="background">200, 242, 241, 238</property>
+</public>
+<property name="gap">5</property>
+</widget>
+<widget name="commentButton" class="button">
+<public>
+<property name="rect">383, 36, 77, 28</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">Droid-Sans-Fallback.TTF, 16</property>
+</public>
+<property name="text">评论区</property>
+<property name="downImg">btn_sel.9.png</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>

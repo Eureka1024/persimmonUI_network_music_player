@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="keyboard">
+    <public>
+      <property name="background">255, 255, 255, 255</property>
+    </public>
+    <widgets>
+      <widget name="Cancel" class="button" bindtap="onBtn">
+        <property name="text">Cancel</property>
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">413, 224, 54, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">0, 212, 208, 200</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="panel1" class="panel">
+        <public>
+          <property name="rect">18, 16, 447, 45</property>
+          <property name="background">0, 212, 208, 200</property>
+        </public>
+        <property name="backgroundImg">keyboardLabel.9.png</property>
+        <widgets>
+          <widget name="TextLabel" class="label">
+            <public>
+              <property name="rect">24, 21, 436, 36</property>
+              <property name="align">RIGHT | VERTICAL | TTF_SIZE</property>
+              <property name="background">0, 212, 208, 200</property>
+              <property name="font">ASCII.TTF, 22</property>
+            </public>
+          </widget>
+        </widgets>
+      </widget>
+      <widget name="button42" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">349, 224, 52, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button41" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">81, 224, 258, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button40" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">15, 224, 54, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 14</property>
+        </public>
+      </widget>
+      <widget name="button38" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">413, 180, 54, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="longpress" />
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button37" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">365, 180, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button36" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">318, 180, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button35" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">270, 180, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button34" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">223, 180, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button33" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">175, 180, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button32" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">128, 180, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button31" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">81, 180, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button30" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboard.9.png</property>
+        <public>
+          <property name="rect">15, 180, 54, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button28" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">413, 134, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button27" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">366, 134, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button26" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">318, 134, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button25" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">271, 134, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button24" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">223, 134, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button23" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">176, 134, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button22" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">129, 134, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button21" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">81, 134, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button20" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">34, 134, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button19" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">431, 87, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button18" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">385, 87, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button17" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">339, 87, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button16" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">292, 87, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button15" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">246, 87, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button14" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">200, 87, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button13" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">154, 87, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button12" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">108, 87, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button11" class="button" bindtap="onBtn">
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+        <public>
+          <property name="rect">61, 87, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+      </widget>
+      <widget name="button10" class="button" bindtap="onBtn">
+        <public>
+          <property name="rect">15, 87, 36, 33</property>
+          <property name="align">HORIZONTAL | VERTICAL</property>
+          <property name="background">255, 255, 255, 255</property>
+          <property name="font">ASCII.TTF, 17</property>
+        </public>
+        <property name="norImg">keyboard.9.png</property>
+        <property name="downImg">keyboardPush.9.png</property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

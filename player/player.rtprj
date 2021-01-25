@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <GlobalSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProjectName="player" DefaultWinWidth="480" DefaultWinHeight="272" DefaultColorFormat="RGB888" DefaultFont="FONT16" DefaultImageFormat=".png" EditorFontSize="14" ProjectParentName="player" Language="Chinese">
+  </GlobalSetting>
+  <Solution>
+    <player SubType="Project">
+      <UI文件 SubType="UIFile">
+        <CustomPanels SubType="CustomPanel">
+          <CommentPanel.ui SubType="PageUi" />
+          <localMusicPanel.ui SubType="PageUi" />
+          <menuPanel.ui SubType="PageUi" />
+          <MusicItem.ui SubType="PageUi" />
+          <onlineMusicPanel.ui SubType="PageUi" />
+          <recommendPanel.ui SubType="PageUi" />
+          <SetPanel.ui SubType="PageUi" />
+          <singlePanel.ui SubType="PageUi" />
+          <VolumePanel.ui SubType="PageUi" />
+          <WiFiItem.ui SubType="PageUi" />
+          <wifiPassWordPanel.ui SubType="PageUi" />
+        </CustomPanels>
+        <main_page SubType="PageDirectory">
+          <main_page.js SubType="PageJs" />
+          <main_page.ui SubType="PageUi" />
+        </main_page>
+      </UI文件>
+      <app.js SubType="AppJs" />
+    </player>
+  </Solution>
+</Project>

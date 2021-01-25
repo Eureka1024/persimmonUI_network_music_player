@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<widget class="Panel" name="WiFiItem">
+<public>
+<property name="background">0, 212, 208, 200</property>
+<property name="rect">0, 0, 300, 30</property>
+</public>
+<widgets>
+<widget name="imagebox1" class="imagebox">
+<public>
+<property name="rect">9, 1, 28, 28</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="img">wifilog1.png</property>
+</widget>
+<widget name="button1" class="button" bindtap="wifiOnBtn">
+<public>
+<property name="rect">53, 1, 206, 28</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">Droid-Sans-Fallback.TTF, 16</property>
+</public>
+<property name="text">WiFi名称</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>

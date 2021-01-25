@@ -1,0 +1,108 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.label, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="volValueLabel" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="font">Droid-Sans-Fallback.TTF</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">0</Property>
+        <Property name="Y">9</Property>
+        <Property name="_Height">13</Property>
+        <Property name="_Name">volValueLabel</Property>
+        <Property name="_Width">25</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,246,246,248</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="Textd">50</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">246, 246, 248</Property>
+      <Property name="Location">0, 9</Property>
+      <Property name="Name">volValueLabel</Property>
+      <Property name="Size">25, 13</Property>
+      <Property name="TabIndex">1</Property>
+    </Object>
+    <Object type="Library.slider, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="volumeSlider" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="font">点阵</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">3</Property>
+        <Property name="Y">21</Property>
+        <Property name="_Height">120</Property>
+        <Property name="_Name">volumeSlider</Property>
+        <Property name="_Width">20</Property>
+        <Property name="BkColor">255,24,23,32</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">255</Property>
+      </Property>
+      <Property name="BindChange">volumeOnSlider</Property>
+      <Property name="BindChanging" />
+      <Property name="Event_func" />
+      <Property name="OnChange_func" />
+      <Property name="Min">0</Property>
+      <Property name="Max">100</Property>
+      <Property name="ticks">10</Property>
+      <Property name="value">20</Property>
+      <Property name="thumb_width">8</Property>
+      <Property name="Orient">垂直</Property>
+      <Property name="barImage">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAwAMAAMADAADAAwAAAQEBAQoPAgAAAMADAAACiVBORw0KGgoAAAANSUhEUgAAAAYAAABaCAYAAACbgCfEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANVSURBVEhLrZbLT1NBFMbvLSAQEASBQqDl0RYUjdgNwQXoSlRYIhtYqAtcSIh70URWLBQS39r4lpe8QQFFhURiooiJmlgW8Cd0NrKe43dm2ptSeolRFl9yZn4zc8/Mvfd8YwRW5Xrvqgx1f9PqDcpQICjXjJ6fcqMrSNS5otX1i+jad/nbuLIsRfsXovML0CIRx53LMmRc/CRF6xJR8xz0lqj1I1HHEsC5RSkaMbp+SqvxA9GZBYDmeSnq3hAdGdXiuGke4NScFP5XRAcHtfzTRCdnAY5NS+GdICp+ruUdIzo6BVAzKYUboACdLPc4UfU4gH9cCtdronwsw3Jh2aoxgAOjUhThgc5hrSKkvX8UYN+IFAXIPxcZsQowqIJBOYATYC86WU4AHwMvQC5A1gjEswA8IwClw1JkY90MrM/KniUqGQIoHpIic4YofUgrExm6BxkMSpGO3ab2a6XjvFwDYZCKDe7C5pIhji2QgmNIeqrFsQWS8FDHIy2OLZCIhxoPtTh29zMYkMIxgM6AFscuBiX9AH3ovK9lIjM1owQzzBfovKdlYtBmcFfL5HfSFwFobAGlEXBHy3yGV8xLlTFAw7itxTESChkeAAd2HA1KN4FbWibiuIDjMgZegIQncYAPZ6XATS0HYg+Dcj7EKMCDvP8BHqPzhpYFKuIAX1yAOD6wnbEJoBGdlQI7vcGdAbbp/uPOowHi7WeorGLATm/Q9oNTn2j0twugPtG//tq3gtgfx/ZXs/05bX/n7QtA3JJhV2Riy5IZKUuxhSwBsQW43JnRpY+BCyAZBTIRu2dxrGoiAy6pSUiTS6xVXhlwEU5BZinIKM0qyCjhGSjbaTAVFscYjLMCyEKh3/1Si2NV9MvgBjmwhj2wCRbHyiZ8EWNBJxtLHoCXjaUCIB+NHB4NcVzOoBLmVQhjycP6rEI8Q5nX4TG4GizOiTNicazsrnoCPghTzMebY3GMvpAB+xQeNNzoZHlwJHVsqfWzUhzC9Eosw6qCLZ2YAWh6J0UtMqlBRqxaJKJs+yyMvgHmfnxSq+F92Og7cDVowXXgNEayWnBNUFeDy7hMXMAFog2z2nBFaP8cvkxc/yE3ruLKcWkZ+krEsbp+PAjK9R5cUrpXtDgOBOXaHxCWxwbR63I6AAAAAElFTkSuQmCCCw==</Binary>
+      </Property>
+      <Property name="PathBarImage">slider_bar.png</Property>
+      <Property name="sliderImage">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAANwMAADcDAAA3AwAAAQEBAQoPAgAAADcDAAACiVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALMSURBVDhPpVRZS5RhGP0kUfsRmQtB1EVBUVJky1WbWl6b9RsCI4Ugoc3ypktNS02rm5brFial5cKKNAiSyS0mBJ2F8ZtvmW85nTOLTNZF0AsPPPO+73Pe85znfGOULgBlYRhW2rZd7zhOi+d5N4MguK9wXbeHv0/wrIb3KnS3UPb74kE5o8b3/Yu+H0w7XminnRBxC7lQbrm+7Xn+p2w2ez6RSFTz/oZCeX5pg7HT48umE9jRBPDiO9D3Eegez0c/85ezwGwSsLKBSXYDZL99DYxJmegKJE2QiQUWvgbaHgNND4Gjo/loZn7mCXCFoO9+AKYbZjwvGCTYphyQNCHVTtMN7HGCdDxn0QPg0BCwbxBouJMP5Ye5d4qAna+A9wSz3CDD2gskU2GQTZ00UTtiopcP3AX2sHh3H7CrEMq113iPYI+AqxPAPNukZtPEqDU0HccLbGnSRup6VQVFgPWxl2dHeOfsU2B8HnCyoW2a5kkx6tVE+j7kNdnPFkqZrA+d6U4LWQ19llYArXHLkEc03ssUUaJKj78BlEbDAHBsDLj+FkjYADFG/wvoRgGIVhg1MplMj1qTTyT0v7YmwYfZ2qobIp1O9wqoyaZjZbb2ErH/Bqa9nNjDFPsZIM+plmIfN1KpVL3jeVNyrMwmnzRy/CooBSuCHOT4T5NNzxtgIcWpOdkvyWSy1pibm6uyLKvDdHxLJuui2URbr6oF6aFQrr1Wnl2KAJM/gYzjmSTSOTMzUylzl/ED3Ew/Da06vi2wazRbO32iEUtUhfJzbEdMJmPUhg9z9cdisWphCCj35bPPHdRrZNXOOvOkLLPJJypUjEzlNVE7vMOrVv/Kysq2tY+2uCKRSPnS0lJdPB7vtiz7G0V0NZEkx6tQzj2HZ1/ZQZeY/AFSXPonWFxc3EjdtvK11uXl5dv8KMcUygnQHI1Gt/DRKt0tlHEZxi+VV7U13+4crgAAAABJRU5ErkJgggs=</Binary>
+      </Property>
+      <Property name="PathSliderImage">slider_slider.png</Property>
+      <Property name="normalImage">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAAlQEAAJUBAACVAQAAAQEBAQoPAgAAAJUBAAACiVBORw0KGgoAAAANSUhEUgAAAAYAAABaCAYAAACbgCfEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEqSURBVEhL7ZbbDoMgDIZ9/5fcnkAv5kR6cOtf0WHAZSbuziY1LV9aBLSlEdGbqrZE7ApbRO4Nsz5eJtM0uUKYpUdEi4EY2RW2RXSIsPDpNY7kCtsiAMRBCOQKmygBhJvjmuyuiVFanzETIuoaoxXA8+TJX8VT1SKYLQKrTf4qnuoPAPsHhawAAyLYPOxweit7FFtSgGXb13XAyc+jAJvzAFgOKoRYAgwOw2hAfwLqg89nOBPYd3YQ7Ka6wAUusA+KPwqDfT8cAKe91fHqU+k4ALulD6Coonl53dTdOQLVGZOqgax/wEHuTQkHmEt9pejP7kfOB7UGaSuvN0j9ElFvwp6qbNu+u8sNIG/09qV8QH5QDuzhqfLmtURUrh/q148brhsxkitsEbm/AZ8iQ4gC437rAAAAAElFTkSuQmCCCw==</Binary>
+      </Property>
+      <Property name="PathNormalImage">vol_bal.png</Property>
+      <Property name="ShowItem">Image</Property>
+      <Property name="ForegroundColor">255, 009, 187, 007</Property>
+      <Property name="BackgroundColor">255, 212, 208, 200</Property>
+      <Property name="StrokeWidth">6</Property>
+      <Property name="SliderColor">255, 255, 255, 255</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">24, 23, 32</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">3, 21</Property>
+      <Property name="Name">volumeSlider</Property>
+      <Property name="Size">20, 120</Property>
+      <Property name="TabIndex">0</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="font">点阵</Property>
+      <Property name="FontSize">16</Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">680</Property>
+      <Property name="Y">385</Property>
+      <Property name="_Height">145</Property>
+      <Property name="_Name">VolumePanel</Property>
+      <Property name="_Width">25</Property>
+      <Property name="BkColor">0,24,23,32</Property>
+      <Property name="FrColor">0,0,0,0</Property>
+      <Property name="Opacity">0</Property>
+    </Property>
+    <Property name="BackColor">24, 23, 32</Property>
+    <Property name="ClientSize">25, 145</Property>
+    <Property name="Location">680, 385</Property>
+    <Property name="Text">VolumePanel</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="ForeColor">0, 0, 0, 0</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<widget class="Panel" name="recommendPanel">
+<public>
+<property name="background">0, 255, 255, 255</property>
+<property name="rect">0, 0, 480, 218</property>
+</public>
+<widgets>
+<widget name="HPanimatedImage" class="animatedImage">
+<public>
+<property name="rect">0, 37, 480, 180</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="loop" />
+<property name="interval">2000</property>
+<property name="images">
+<image>homePage 0.png</image>
+<image>homePage 1.png</image>
+<image>homePage 2.png</image>
+<image>homePage 3.png</image>
+<image>homePage 4.png</image>
+<image>homePage 5.png</image>
+<image>homePage 6.png</image>
+<image>homePage 7.png</image>
+</property>
+</widget>
+<widget name="imagebox1" class="imagebox">
+<public>
+<property name="rect">14, 16, 4, 15</property>
+<property name="background">255, 0, 0, 0</property>
+</public>
+</widget>
+<widget name="netTitlelabel" class="label">
+<public>
+<property name="rect">25, 7, 129, 31</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">Droid-Sans-Fallback.ttf, 20</property>
+</public>
+<property name="text">个性推荐</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>

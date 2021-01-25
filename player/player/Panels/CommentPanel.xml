@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<widget class="Panel" name="CommentPanel">
+<public>
+<property name="background">0, 192, 192, 192</property>
+<property name="rect">0, 0, 180, 88</property>
+</public>
+<widgets>
+<widget name="imagebox1" class="imagebox">
+<public>
+<property name="rect">0, 0, 47, 37</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="img">superMali.png</property>
+</widget>
+<widget name="label1" class="label">
+<public>
+<property name="rect">46, 7, 123, 26</property>
+<property name="align">LEFT | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">Droid-Sans-Fallback.TTF, 14</property>
+</public>
+<property name="text">用户名有点长：</property>
+</widget>
+<widget name="MultiTextBox1" class="MultiTextBox">
+<public>
+<property name="rect">10, 38, 160, 44</property>
+<property name="background">0, 128, 128, 128</property>
+<property name="font">Droid-Sans-Fallback.TTF, 10</property>
+</public>
+<property name="rowheight">20</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>

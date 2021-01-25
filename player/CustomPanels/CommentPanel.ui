@@ -1,0 +1,114 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.MultiTextBox, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="MultiTextBox1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="font">Droid-Sans-Fallback.TTF</Property>
+        <Property name="FontSize">10</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">10</Property>
+        <Property name="Y">38</Property>
+        <Property name="_Height">44</Property>
+        <Property name="_Name">MultiTextBox1</Property>
+        <Property name="_Width">160</Property>
+        <Property name="BkColor">0,128,128,128</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="RowHeight">20</Property>
+      <Property name="Textd" />
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 128, 128, 128</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">10, 38</Property>
+      <Property name="Name">MultiTextBox1</Property>
+      <Property name="Size">160, 44</Property>
+      <Property name="TabIndex">2</Property>
+    </Object>
+    <Object type="Library.label, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="label1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleLeft</Property>
+        <Property name="font">Droid-Sans-Fallback.TTF</Property>
+        <Property name="FontSize">14</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">46</Property>
+        <Property name="Y">7</Property>
+        <Property name="_Height">26</Property>
+        <Property name="_Name">label1</Property>
+        <Property name="_Width">123</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="Textd">用户名有点长：</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">46, 7</Property>
+      <Property name="Name">label1</Property>
+      <Property name="Size">123, 26</Property>
+      <Property name="TabIndex">1</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.7566.26578, Culture=neutral, PublicKeyToken=null" name="imagebox1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="font">点阵</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">0</Property>
+        <Property name="Y">0</Property>
+        <Property name="_Height">37</Property>
+        <Property name="_Name">imagebox1</Property>
+        <Property name="_Width">47</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+        <Property name="Opacity">0</Property>
+      </Property>
+      <Property name="MSImage">
+        <Binary>AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19vcmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhwb3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgBAQEBCQIAAAAAAAAA2wMAANsDAADbAwAAAQEBAQoPAgAAANsDAAACiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANwSURBVEhL7ZRLTBNRFIahlJZSSmkpD12Y6EaCEgkrEAtKiI+VBjf4JBCNUSMhUdm5URdoMEaiBiMgooIIaLCoCNQKRUQQsYSXiKIIasTEhW7N8ZzbucO0nQEksONP/sy95577fzN3pvVb0hyUiQbB4VRYTK1Fw6SM76FpjXUtsP7KAeWMvQt2A2Y5wEzGPQsCFwNdLhcLlUoKlJr62O75igfFx8czEJbAYrGIN2Cz2Xyg3NjjpIz5SMNDuLAmmov3jKlUMKJWw0Cgls0r3H3z0miHEErCObuSpGM58FutjtWoj4JmE2ukDV/Q4/7+06HoQ2jeo9FoGHQEx2KPF7hbp2d1vgftI2O1sJl7Aj2mCoDRADUMqzXQr9GCC8N6goKhSxcCHXoDtIUYoRb7cL8imPpasc9uMElvQpS06GN6elqXAzsMYdAcaoZGowVihT45cAv2PAmzQBNehVymXrQHTOqx9kr46LwDx7J2gBbnFC4HbjBFQL05Cky4rgR+aI7kuT5yoEXopxdVIni09Ra8f14BI46b0F5b9DMQ1536UA/wGzyR3cJeJbDwF6uoP2jxBjiYxnGrV7Kb+dB2m9VKz52AQHy3IXodDDwtgT3b02DX+mjWy8FOvRtO4AJ3podi0CIsY6tVHBOYj8sLT3qA6QSG7TdgsLmUgTOTohmYw4vP5EL3gyLoqrsE5eeP8xxRv/uaymBq8Bn8GLDD9/4W+PzyLmviR63Cr5bmBFIC0/re5CgR3Gu7Cj31l+FRyWlwVhVCZ+1F6Ki+MA3fv3MLTA05YLK7FiZe1cB4ZzUDK71jDqbwlspCBi4+mwdHNlrgQEoEZG2IBGOwmoEL8nPEJ/YGw7ee+/D1dd2cwaZQA4Oe2mxkIQROjwtntdxN7quroZiBaV0JvHw2cGriOgZOT05goUfxyfLTTWzMwXTUNCf3Pb4mgumolcAkRTCt7RPeWzYeIR1nXlo45FgjWM374+pvvD4jmPIYUSJISogVwTSn4D3J0QycbY2Eg/j+OJjWMrZZZcG0N8pi8gFTHZ2I9hAL87Yc+HCqBQxBahhqKVMEuyP9gtB8XkMFWc0GltYJSjBvMMZw6P9JGk7mYD5PiTHBO3u5D5j+vXD7/KBcaWvMHnAsefycOHjVimUc9ov2LaauoAlEVxUVljQ3+fn9A9/EXyVJViTbAAAAAElFTkSuQmCCCw==</Binary>
+      </Property>
+      <Property name="ImagePath">superMali.png</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">0, 0</Property>
+      <Property name="Name">imagebox1</Property>
+      <Property name="Size">47, 37</Property>
+      <Property name="TabIndex">0</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="font">点阵</Property>
+      <Property name="FontSize">16</Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">505</Property>
+      <Property name="Y">414</Property>
+      <Property name="_Height">88</Property>
+      <Property name="_Name">CommentPanel</Property>
+      <Property name="_Width">180</Property>
+      <Property name="BkColor">0,192,192,192</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+      <Property name="Opacity">0</Property>
+    </Property>
+    <Property name="BackColor">192, 192, 192</Property>
+    <Property name="ClientSize">180, 88</Property>
+    <Property name="Location">505, 414</Property>
+    <Property name="Text">CommentPanel</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="ForeColor">0, 0, 0</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>
